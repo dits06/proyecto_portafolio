@@ -1,0 +1,71 @@
+body {
+  font-family: 'raleway', sans-serif;
+  background-color: #2b7df8;
+}
+
+.hero-section {
+  background-image: url('../img/bg-hero.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20rem;
+
+}
+
+.blackpuff {
+  background-color: black;
+}
+
+.yellowpuff {
+  background-color: #2b7df8;
+}
+
+.texto_g {
+
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.texto_m {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.texto_s {
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373A3C;
+}
+
+footer a {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  #header {
+    height: 1000px;
+  }
+
+  .hero-text {
+    color: black;
+    font-size: 3.5em;
+    overflow: hidden;
+  }
+  #mobile {
+    display: none;
+  }
+
+  }
+
+@media (max-width: 768px) {
+  nav img {
+    width: 2rem;
+  }
+}
